@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background: black;
+	height: 80px;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-left: 50px;
+	padding-right: 100px; 
+}
+
+nav .logo h1{
+	font-size: 35px;
+	font-weight: 700;
+	color: white;
+}
+
+ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+nav ul li{
+	margin: 0 15px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+	padding: 8px 15px;
+	border-radius: 5px;
+	
+}
+
+nav ul li a.active{
+	color: #111;
+	background: #fff;
+}
+
+nav ul li a:hover{
+	color: #111;
+	background: #fff;
+}
+
+/*start of banner*/
+
+.banner-img {
+	background-image: url("../img/banner.jpg");
+	height: 700px;
+	background-size: cover;
+	text-align: center;
+}
+
+.banner-title{
+	padding-top: 300px;
+}
+
+.banner-title h3{
+	font-size: 35px;
+	color: white;
+}
+
+.banner-title h1{
+	font-size: 55px;
+	color: white;
+}
+
+.banner-btn{
+	margin: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+	background: lightblue;
+}
+
+.banner-btn:hover{
+	background: green;
+	color: white;
+}
+
+/*start of main body area*/
+
+.home-posts{
+	height: 100%;
+	width: 60%;
+	/*background-color: #EAECEE ;*/
+	display: inline-block;
+}
+
+.sidebar{
+	height: 100%;
+	width: 40%;
+	/*background-color: #D5D8DC;*/
+	display: inline-block;
+	float: right;
+}
+
+/*post style*/
+
+.post-img1{
+	margin-left: 150px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.publisher{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 25px;
+}
+
+.post-title{
+	padding: 10px 15px;
+	font-size: 25px;
+}
+
+.post-abs{
+	padding: 0px 15px;
+	font-size: 18px;
+}
+
+.post-btn{
+	padding: 10px 25px;
+	margin: 10px 15px;
+	background: #85C1E9 ;
+}
+
+.side-cat{
+	padding: 20px 15px;
+	font-size: 25px;
+}
+
+.cat-btn{
+	padding: 10px 30px;
+	margin: 10px 30px;
+	background: #85C1E9 ;
+	border-radius: 30px;
+}
+
+hr{
+	margin:  20px;
+}
+.plr-post h2{
+	padding: 20px 15px;
+	font-size: 25px;
+}
+
+.plr-post-img{
+	padding-left: 100px;
+}
+
+.plr-post h1{
+	padding: 20px 40px;
+	font-size: 25px;
+}
+
+.news-title{
+	padding: 20px 15px;
+	font-size: 25px;
+}
+
+.form{
+	margin: 45px;
+}
+
+#name{
+	width: 60%;
+	padding: 8px 20px;
+	margin: 9px 0px;
+}
+
+#email{
+	width: 60%;
+	padding: 8px 20px;
+	margin: 9px 0px;
+}
+
+#Name{
+	font-size: 20px;
+}
+
+#Email{
+	font-size: 20px;
+}
+
+#btn-form{
+	padding: 8px 15px;
+	background: #4CAF50;
+}
+
+.footer{
+	background-color: #2C3E50;
+	height: 50px;
+	text-align: center;
+
+}
+
+.footer p{
+	color: white;
+	margin-top: 25px;
+	padding-top: 20px;
+}
+
+.contact-form{
+	margin: 50px;
+	text-align: center;
+}
+
+.contact-form form{
+	text-align: center;
+}
+
+.social-links{
+	text-align: center;
+}
+
+
